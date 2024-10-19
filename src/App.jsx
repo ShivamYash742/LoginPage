@@ -14,7 +14,11 @@ function App() {
     <Router>
       <div className="app-container">
         <Routes>
+<<<<<<< HEAD
           <Route path="/" element={<Navigate to="/login" />} />
+=======
+          <Route path="/" element={<Navigate to="/Login" />} />
+>>>>>>> 1f92233708b39c16b63645e0019270189c0dc1da
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
